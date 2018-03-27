@@ -27,6 +27,8 @@ The different values for the parameter `method` are:
 
 NB: The argument `power` is used only for the method `poly`, otherwise ignored.
 
+NNB: The score considered here are always *roc_auc* scores, this can be easily changed.
+
 ## example
 *example.py* is a programm formatting the iris dataset, binarizing the target variable, dividing
 the data in a train and test data, applying different classifiers to generate oof-prediction files
